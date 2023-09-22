@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{ 
+  font-family: "Inter", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home{
+  height: 100vh;
   display: flex;
   flex-direction: column;
+
+}
+
+.navigation{
+  height: 80px;
+  flex-grow: 0;
+  padding: 1.5rem;
+  display: flex;
   align-items: center;
+
+}
+.navigation__logo{
+  color: #000;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 40.271px; /* 158.842% */
+  margin-right: auto;
+  text-decoration: none;
+}
+.navigation__link{
+  text-decoration: none;
+  color: #4D4D4D;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22.923px; /* 143.267% */
+  margin: 0 1.5rem;
+} 
+
+
+.home__content{
+  flex-grow: 1;
+  background: url('../public/img/home_bg.png'), rgba(0,0,0,.5);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+
+}
+.home__content h1{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 42px; /* 116.667% */
+}
+.home__content p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.home__content button{
+  width: 100%;
+  max-width: 300px;
+  padding: .5rem 1rem;
+  background-color: #FF8C38;
+  border: none;
+  border-radius: 4px;
   color: white;
+  font-weight: 700;
+}
+.home__footer{
+  flex-grow: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525;
+  color: #AAA;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22.923px; /* 163.733% */
 }
 
-.App-link {
-  color: #61dafb;
+.about{
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about__content {
+
+}
+.about__content-img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  max-height: 300px;
+}
+.about__content-body{
+  padding: 1.5rem 1.2rem;
+
+
+}
+.about__content-body-panel{
+  background-color: #FFCC8D;
+  border-radius: 3px;
 }
