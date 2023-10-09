@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<center>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](assets/images/2023-10-09-15-43-08.png)
 
-## Available Scripts
+**" You got the travel plan, we got the travel vans "**
 
-In the project directory, you can run:
+VanLife is a web app to help people find their best van for a memorible trip.
 
-### `npm start`
+</center>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Overview
+This project is a client-side based website represents a van booking site for people to book a suitable van for their trip. It uses mostly frontend techs like: HTML/CSS, Bootstrap, Javascript, React and React Router. The backend side uses mirageJS for a mock server.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Features and ScreenShots
+* Main page
+<center>
 
-### `npm test`
+![](assets/images/2023-10-09-16-06-33.png)
+</center>
+* Vans listing 
+<center>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](assets/images/2023-10-09-16-07-08.png)
+</center>
+* Filter vans list
+<center>
 
-### `npm run build`
+![](assets/images/2023-10-09-16-07-22.png)
+</center>
+* Checking van info
+<center>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](assets/images/2023-10-09-16-07-35.png)
+</center>
+* Login/Logout: require login to access to Host
+<center>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](assets/images/2023-10-09-16-07-59.png)
+</center>
+* After login, user can check for some information in the host page
+<center>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](assets/images/2023-10-09-16-08-26.png)
 
-### `npm run eject`
+![](assets/images/2023-10-09-16-08-36.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](assets/images/2023-10-09-16-08-46.png)
+</center>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Tech Stack
+**Frontend**
+* [React](https://react.dev/)
+* [React Router 6](https://reactrouter.com/en/main) - Routing with hooks like useRoutes, useLoaderData
+* Bootstrap - Styling and responsive design
+* HTML/CSS - Markup and styling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Backend**
+* mirageJS - API mocking
 
-## Learn More
+The core of the frontend is built with React and React Router 6 for routing and navigation. Key React Router hooks like useRoutes, useLoaderData and Link/NavLink, ... are used.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bootstrap provides responsive design and styling capabilities out of the box.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The backend uses mirageJS to mock APIs and provide fake data for prototyping.
 
-### Code Splitting
+# Installation 
+1. Clone the repo
+2. Install all dependencies with `npm install` or (`npm i && npm run dev`)
+3. Start development server with `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Contact me at
+* Your Name: **Khoa Nguyen**
+* Email: nlydkhoa1024@gmail.com
+* LinkedIn: https://www.linkedin.com/in/khoa-nguyen-ly/
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
